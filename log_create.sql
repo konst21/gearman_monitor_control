@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS `log`;
 
-CREATE TABLE `log` (
+CREATE TABLE `logger` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `type` varchar(255) DEFAULT NULL,
   `message` text,
