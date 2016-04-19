@@ -33,12 +33,3 @@ set_error_handler( array( 'G_Error', 'capture_normal' ) );
 set_exception_handler( array( 'G_Error', 'capture_exception' ) );
 register_shutdown_function( array( 'G_Error', 'captureShutdown' ) );
 
-/*// PHP set_error_handler TEST
-IMAGINE_CONSTANT;
-
-// PHP set_exception_handler TEST
-throw new Exception( 'Imagine Exception' );
-
-// PHP register_shutdown_function TEST ( IF YOU WANT TEST THIS, DELETE PREVIOUS LINE )
-imagine_function( );*/
-
