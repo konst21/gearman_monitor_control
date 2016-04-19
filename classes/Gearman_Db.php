@@ -4,9 +4,9 @@ class Gearman_Db extends G_Db{
     public function __construct(){
 
         $this->db_host = 'localhost';
-        $this->db_name = 'alarm';
-        $this->db_user = 'konst20';
-        $this->db_pass = 'rbzirj25';
+        $this->db_name = '';
+        $this->db_user = '';
+        $this->db_pass = '';
 
         parent::__construct();
     }
