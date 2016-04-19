@@ -1,0 +1,250 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+textarea {
+    height: 1.2em !important;
+    resize: none;
+    overflow: hidden;
+}
+/* </CSS reset> */
+
+
+body {
+    font-size: 16px !important;
+    font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+    word-wrap: break-word;
+    padding-top: 5px;
+}
+div, textarea, p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;;
+}
+table, table tr, table td, table th {
+    
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+
+
+#workers_table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#workers_table td {
+    padding: 3px 3px;
+    height: 20px;
+    line-height: 20px;
+}
+#add_worker, #stop_workers, #reset_queue, #stop_one_worker {
+    cursor: pointer;
+}
+table#controls_table button {
+    width: 100%;
+}
+
+.icon {
+    margin-top: 5px;
+}
+#functions_table th, #functions_table td {
+    border: 1px solid #000000;
+    padding: 2px 3px;
+    vertical-align: middle;
+}
+.gearman_func_value {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.log_row {
+    font-family: "Courier New" sans-serif;
+    padding: 2px;
+}
+#log_row_limiter {
+    height: 300px;;
+    overflow-y: scroll;
+}
+.main_menu div.menu_button {
+    margin: 0 !important;
+    padding: 0 5px !important;
+}
+.menu_button :hover {
+    color: red !important;
+}
+
+
+.row_on_mouse {
+    background-color: #ffff00 !important;
+}
+.row_on_mouse textarea {
+    background-color: #fff !important;
+}
+.row_on_mouse td {
+    color: #000 !important;
+}
+.row_on_mouse a {
+    background-color: #c7ffc7 !important;
+    color: blue !important;
+}
+
+.header_logo {
+    float: left;
+}
+.header_title {
+    float: left;
+}
+.header_title h1 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+
+}
+.clearb {
+    clear: both;
+}
+
+.table_title_msg2 {
+    margin: 15px 5px 5px 5px;
+    font-weight: bold;
+    color: #333333;
+}
+.td_on_mouse {
+    background-color: #ffff00;
+}
+#count_workers {
+    font-weight: bold;
+    color: #000066;
+}
+.reset_task {
+    background: url("../img/delete.png") center no-repeat;
+    cursor: pointer;
+}
+#log_view tr td {
+    padding: 5px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.row_odd {
+    background-color: rgba(100,100,100, 0.1);
+}
+#log_view {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 99%;
+}
+.gdate {
+    font-size: 80%;
+    color: #808080;
+}
+.log_row_msg {
+    cursor: pointer;
+}
+#popup_message {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.log_row_time {
+    width: 100px;
+}
+#popup_prompt {
+    width: 25px !important;
+
+}
+#worker_for_stop, #worker_for_start {
+    width: 100%;
+}
+table#workers_count {
+    border: 1px solid #000000;
+    margin: 10px 20px 10px 0;
+    width: 350px !important;
+
+}
+table#workers_count td, table#workers_count th {
+    border: 1px solid #000000;
+    padding: 5px;
+    word-wrap: break-word;
+}
+table#workers_count th.header_workers, table#functions_table th.title {
+    font-weight: bold;
+}
+td.worker_file_name {
+     width: 300px;
+ }
+
+table#functions_table {
+    width: 550px;
+}
+table#functions_table td.gearman_func_name {
+    width: 60%;
+    font-weight: bolder;
+}
+
+#main_table {
+    width: 100%;
+}
+.reset_worker {
+    background: url("../img/delete.png") center no-repeat;
+    cursor: pointer;
+}
+table#controls_table td{
+    margin-right: 3px;
+    padding-right: 10px;
+}
+
+table#controls_table span.button_title{
+    font-weight: bold;
+}
+
+#controls_table {
+    margin: 20px 0;
+}
+.row_odd_search {
+    background-color: rgba(0,255,0, 0.2);
+}
+.row_no_odd_search {
+    background-color: rgba(0,0,255, 0.2);
+}
