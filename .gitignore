@@ -17,3 +17,4 @@ img_cache
 upload/**
 testq.php
 protocol.php
+Gearman_Db.php
