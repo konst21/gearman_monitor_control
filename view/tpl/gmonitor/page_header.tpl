@@ -18,10 +18,10 @@
 <div class="wrapper">
     <div class="header">
         <div class = "header_logo">
-            <img src="{$path_to_view|default: ""}/img/glogo1.png" alt="Gearman Monitor">
+            <img src="{$path_to_view|default: ""}/img/glogo1.png" alt="Gearman Monitor && Control">
         </div>
         <div class="header_title">
-            <h1>Gearman Monitor</h1>
+            <h1>Gearman Monitor && Control</h1>
         </div>
         <div class="clearb"></div>
     </div>

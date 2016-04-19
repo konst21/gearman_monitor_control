@@ -4,7 +4,6 @@ include_once '../gearman_includes.php';
 $worker = new GearmanWorker();
 $worker->addServer('127.0.0.1', 4730);
 $worker->addFunction('get_geo_data', 'get_geo_data');
-$z = new ZZ();
 function get_geo_data(GearmanJob $job){
     $address = $job->workload();
     $gl = new Gearman_Logmaker();
