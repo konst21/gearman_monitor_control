@@ -21,3 +21,5 @@ classes/Gearman_Db.php
 */Gearman_Db.php/*
 Gearman_Db.php/**
 Gearman_Db.php
+worker_countries.php
+worker_sender.php
